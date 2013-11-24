@@ -1,6 +1,6 @@
-#define MOSI 0
-#define SCK 1
-#define SS 2
+#define MOSI 2
+#define SCK 0
+#define SS 1
 
 #define MILLIS_PER_DAY (24L * 3600L * 1000L)
 
