@@ -1,8 +1,8 @@
-#define MOSI 0
-#define SCK 1
-#define SS 2
+#define MOSI 2
+#define SCK 0
+#define SS 1
 
-#define MILLIS_PER_DAY (24L * 1000L)
+#define MILLIS_PER_DAY (24L * 3600L * 1000L)
 
 uint32_t startMillis = 0;
 void setup()
@@ -14,7 +14,7 @@ void setup()
   startMillis = millis();
 }
 
-uint8_t pwmLevel = 10;
+uint8_t pwmLevel = 50;
 uint8_t count = 1;
 uint8_t pwmCount = 0;
 
